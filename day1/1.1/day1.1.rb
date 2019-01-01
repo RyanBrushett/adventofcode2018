@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-input = File.open('input')
+path = File.join(File.dirname(__FILE__), 'input')
+input = File.open(path)
 start = 0
 
 input.each_line { |line| start += line.strip.to_i }
