@@ -1,0 +1,7 @@
+name: adventofcode2018
+
+type: ruby
+
+up:
+  - homebrew:
+  - ruby: 2.5.3
